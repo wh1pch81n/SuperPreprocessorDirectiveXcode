@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Captain
+//  Cadet
 //
 //  Created by Derrick  Ho on 9/15/16.
 //  Copyright © 2016 Derrick  Ho. All rights reserved.
@@ -14,7 +14,7 @@ class ViewController: UIViewController {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view, typically from a nib.
 		#if ABC
-			engage()
+		self.methodThatDoesThings()
 		#endif
 	}
 
@@ -23,8 +23,9 @@ class ViewController: UIViewController {
 		// Dispose of any resources that can be recreated.
 	}
 
-	func engage() {
-		print("Space, the final frontier")
+
+	func methodThatDoesThings() {
+		
 	}
 	
 }
